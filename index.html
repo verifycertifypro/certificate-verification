@@ -1,0 +1,85 @@
+<!-- views/layout.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>valid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md text-center">
+    <!-- Verification Icon -->
+    <div class="mb-6">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-16 w-16 mx-auto text-blue-500"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-10.707a1 1 0 00-1.414 0L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 000-1.414z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <!-- Verification Message -->
+    <h2 class="text-2xl font-bold mb-2 text-indigo-600">
+      Certificate has been verified.
+    </h2>
+    <p class="text-sm text-gray-500 mb-6">
+      The student's information has been successfully verified.
+    </p>
+
+    <!-- Student Details -->
+    
+    <div class="text-left mb-4 space-y-2">
+      <p class="text-lg text-gray-700">
+        <strong>Name:</strong> omesh singh
+      </p>
+      <p class="text-lg text-gray-700">
+        <strong>Email:</strong> omeshsingh2004@gmail.com
+      </p>
+      <p class="text-lg text-gray-700">
+        <strong>Domain:</strong> Web Development
+      </p>
+      <p class="text-lg text-gray-700">
+        <strong>Duration:</strong> 1 Month ( 1st May 2025 - 1st June 2025 )
+      </p>
+    </div>
+    
+
+    <!-- Navigate to Student Section -->
+    <a
+      href="/page/verification"
+      class="block w-full py-3 px-4 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+    >
+      Go to the Certification Verification
+    </a>
+
+    <!-- Download Receipt Link -->
+    <!-- <div class="mt-6 text-center">
+        <a
+          href="/download-receipt"
+          class="text-sm text-gray-600 hover:text-indigo-500 flex justify-center items-center"
+        >
+          <span>Download Receipt</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 ml-1"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 3a1 1 0 011-1h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3zm4 7a1 1 0 011 1v4a1 1 0 102 0v-4a1 1 0 012 0v4a1 1 0 102 0v-4a1 1 0 012 0v4a1 1 0 102 0v-4a1 1 0 011-1V4H4v6a1 1 0 013 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div> -->
+  </div>
+</body>
+
+</html>
